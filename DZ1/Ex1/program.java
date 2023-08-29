@@ -10,7 +10,12 @@ public class program{
         System.out.print(count + ":");
         cat.displayInfo();
         cat.makeSound();
-        cat.get_Owner_name();
+        System.out.println("--------------------------");
+        System.out.println("Owner: " + cat.get_Owner_name());
+        System.out.println("--------------------------");
+        System.out.println("Name: " + cat.getName());
+        System.out.println("--------------------------");
+        System.out.println("Age: " + cat.getAge());
         
         count += 1;
 
@@ -19,7 +24,13 @@ public class program{
         System.out.print(count + ":");
         cat2.displayInfo();
         cat2.makeSound();
-        cat2.getName();
+        System.out.println("--------------------------");
+        System.out.println("Owner: " + cat2.get_Owner_name());
+        System.out.println("--------------------------");
+        System.out.println("Name: " + cat2.getName());
+        System.out.println("--------------------------");
+        System.out.println("Age: " + cat2.getAge());
+        System.out.println("--------------------------");
         count += 1;
         
 
@@ -28,7 +39,11 @@ public class program{
        System.out.print(count + ":");
        cat3.displayInfo(); 
        cat3.makeSound();
-       cat3.getAge();
+       System.out.println("--------------------------");
+       System.out.println("Name: " + cat3.getName());
+       System.out.println("--------------------------");
+       System.out.println("Age: " + cat3.getAge());
+       System.out.println("--------------------------");
 
 
     }
