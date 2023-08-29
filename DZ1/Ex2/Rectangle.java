@@ -10,12 +10,19 @@ public class Rectangle{
     }
     public void calculateArea(){
         int area = width * height;
-        System.out.println(area);
+        System.out.println("Area: " + area);
     }
 
     public void calculatePerimeter(){
         int perimetr = 2*(width * height);
-        System.out.println(perimetr);
+        System.out.println("Perimetr: " + perimetr);
+    }
+
+    public int getWidth(){
+        return width;
+    }
+    public int getHeight(){
+        return height;
     }
 
     public void giveInfo(){
