@@ -1,4 +1,8 @@
-package DZ3.base_task;
+
+package DZ3;
+
+
+
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,16 +14,22 @@ public class Main implements Constants {
         Cat cat = new Cat();
         List<Cat> cats = new ArrayList<>();
 
-        cats.add(new Cat("Барсик", 10, "Петр"));
-        cats.add(new Cat("Мурзик", 5, "Иван"));
-        cats.add(new Cat("Пушок", 2, "Сергей"));
-        cats.add(new Cat("Стеша", 8, "Ольга"));
+        cats.add(new Cat("Мурзик", 10, "Стёпа"));
+        cats.add(new Cat("Люся", 1, "Дима"));
+        cats.add(new Cat("Борис", 2, "Лёша"));
+        cats.add(new Cat("Хвостик ", 3, "Миша"));
+
+        
 
         cat.setName(CAT_NAME);
         cat.setAge(CAT_AGE);
         cat.setOwnerName(OWNER_NAME);
+        
+        
 
         cat.greet();
+        
+        
 
         Predicate<Integer> howOldCat = ageValue -> ageValue > OLD_CAT_AGE;
         boolean result = howOldCat.test(cat.getAge());

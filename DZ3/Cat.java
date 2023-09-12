@@ -1,4 +1,4 @@
-package DZ3.base_task;
+package DZ3;
 
 class Cat extends Owner implements SoundMarker, GoingMarker, CareAnimal {
     private String name;

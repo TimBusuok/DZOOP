@@ -1,4 +1,4 @@
-package DZ3.base_task;
+package DZ3;
 
 public class Owner {
     private String ownerName;
